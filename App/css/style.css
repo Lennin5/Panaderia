@@ -1,0 +1,170 @@
+.white{
+	text-decoration-color: white;
+	color: white;
+	border: 1px solid white;
+}
+
+.boton{
+	text-decoration-color: white;
+	color: white;
+	border: 1px solid white;
+}
+
+.whitee{
+	color: white;
+}
+
+/*h1, h2, h3, h4,h6{
+	color: white;
+}
+*/
+.Cards{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+/*	border: 1px solid red;*/
+}
+
+.Cards2{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+/*	border: 1px solid red;*/
+}
+
+/*.Cards2{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+/*	border: 1px solid blue;*/
+	width: 70%;
+}*/
+
+.Card-2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-home{
+	width: 100%;
+	height: 100%;
+}
+
+
+.list-product{
+/*	border: 1px solid red;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.btn-volver{
+	border: 1px solid white;
+}
+
+
+#dropdownMenuButton{
+	border: 1px solid white;
+}
+
+.buscador{
+	width: 30px;
+	border: 1px solid blue;
+
+}
+
+.F-Buscador-1{
+/*	border: 1px solid blue;*/
+	display: flex;
+	justify-content: center;
+
+}
+.F-Buscador{
+/*	border: 1px solid red;*/
+	width: 97%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.F-Buscador-1S{
+/*	border: 1px solid blue;*/
+	display: flex;
+	justify-content: center;
+
+}
+.F-BuscadorS{
+/*	border: 1px solid red;*/
+	width: 97%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.FormularioIndexCrearBox{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.FormularioIndexCrear{
+/*	border: 1px solid red;*/
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.FormIndexCrear{
+/*	border: 1px solid blue;*/
+	width: 70%;
+}
+
+.FormularioIndexCrear2{
+/*	border: 1px solid red;*/
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.FormIndexCrear2{
+/*	border: 1px solid blue;*/
+	width: 70%;
+}
+
+.FlexBuscador{
+/*	border: 1px solid red;	*/
+	display: flex;
+	justify-content: center;
+
+}
+
+.FlexBuscadorFiltrar{
+/*	border: 1px solid red;	*/
+	display: flex;
+	justify-content: center;
+
+}
+
+.Op-Si-Cancelar{
+	display: flex;
+	justify-content: center;
+}
+
+.MenuOrden{
+	width: 97%;
+/*	border: 1px solid red;*/
+}
+
+.BeforeMenuOrden{
+	display: flex;
+	justify-content: center;
+}
+
+.txtmes{
+	display: flex;
+	justify-content: center;
+}

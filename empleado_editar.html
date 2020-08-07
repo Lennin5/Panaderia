@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Editar Empleado</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./App/css/style.css">
+</head>
+<body background="./App/img/gris.jpg">
+
+<center>
+  <h3 class="whitee">Editar Empleado</h3>
+</center>
+
+
+<div class="FormularioIndexCrearBox">
+<div class="FormularioIndexCrear">
+  <div class="FormIndexCrear">
+
+   <form>
+
+  <div class="form-group">
+    <label class="labelForm whitee"  for="exampleInputEmail1">DUI</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+    value="12345678-0">
+    <small id="emailHelp" class="form-text text-muted"></small>
+  </div>
+
+  <div class="form-group">
+    <label class="labelForm whitee"  for="exampleInputEmail1">Nombre del Empleado</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+    value="Rodrigo Samuel Cermeño Cerrano">
+    <small id="emailHelp" class="form-text text-muted"></small>
+  </div>
+
+    <div class="form-group">
+    <label class="labelForm whitee"  for="exampleInputEmail1">Fecha de Nacimiento</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+     value="31 Octubre 1993">
+    <small id="emailHelp" class="form-text text-muted"></small>
+  </div>
+
+    <div class="form-group">
+    <label class="labelForm whitee"  for="exampleInputEmail1">Genero</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+    value="Masculino">
+    <small id="emailHelp" class="form-text text-muted"></small>
+  </div>
+
+    <div class="form-group">
+    <label class="labelForm whitee"  for="exampleInputEmail1">Direccion de casa</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+    value="4° calle poniente Barrio el Calvo">
+    <small id="emailHelp" class="form-text text-muted"></small>
+  </div>
+
+
+</form>
+
+
+</div>
+</div>
+
+<div class="FormularioIndexCrear2">
+  <div class="FormIndexCrear2">
+
+   <form>
+
+  <div class="form-group">
+    <label class="labelForm whitee"  for="exampleInputEmail1">Departamento</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+    value="Sonsonate">
+    <small id="emailHelp" class="form-text text-muted"></small>
+  </div>
+
+  <div class="form-group">
+    <label class="labelForm whitee"  for="exampleInputEmail1">Municipio</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+    value="sonzacate">
+    <small id="emailHelp" class="form-text text-muted"></small>
+  </div>
+
+    <div class="form-group">
+    <label class="labelForm whitee"  for="exampleInputEmail1">Telefono</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+    value="7287-0009">
+    <small id="emailHelp" class="form-text text-muted"></small>
+  </div>
+
+  <div class="form-group">
+    <label class="labelForm whitee"  for="exampleInputEmail1">Cargo de empleado</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+    value="Contador">
+    <small id="emailHelp" class="form-text text-muted"></small>
+  </div>
+
+<label class="labelForm whitee"  for="exampleInputEmail1">Discapacidad</label>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <button class="btn btn-outline-secondary dropdown-toggle white" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Seleccionar</button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Ninguno</a>
+      <a class="dropdown-item" href="#">Discapacitado</a>
+      <a class="dropdown-item" href="#">Otro</a>
+    </div>
+  </div>
+  <input type="text" class="form-control" aria-label="Text input with dropdown button" value="Ninguno">
+</div>
+
+
+</div>
+</div>
+</div>
+
+<div class="Op-Si-Cancelar">
+
+  <div>
+  <a href="#">
+  <button type="button" class="btn btn-secondary" data-toggle="modal"
+  data-target="#exampleModalScrollable">Guardar Cambios</button></a>
+  <a href="#">
+  <button type="submit" class="btn btn-secondary" onclick="window.close();">Cancelar</button></a>
+</div>
+
+</div>
+
+
+<!-- MODAL SE ACTIVA AL CLICKEAR "AGREGAR PRODUCTO" -->
+
+<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalScrollableTitle">Se han editado los datos el Empleado: Rodrigo </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+</div>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal"
+        onclick="window.close();">Entendido</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

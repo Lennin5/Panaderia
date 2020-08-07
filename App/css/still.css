@@ -1,0 +1,81 @@
+.boton{
+	text-decoration-color: white;
+	color: white;
+	border: 1px solid white;
+}
+
+.labelForm{
+	color: white;
+}
+body{
+    background-attachment: fixed;
+        background: url(../img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
+.FormularioIndex{
+/*	border: 1px solid red;*/
+	width: 95%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.FormIndex{
+/*	border: 1px solid blue;*/
+	width: 40%;
+}
+
+.FormularioReg{
+/*	border: 1px solid red;*/
+	width: 95%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.FormReg{
+/*	border: 1px solid blue;*/
+	width: 40%;
+}
+
+.Logo{
+/*	border: 1px solid red;*/
+	
+}
+
+.Log{
+/*	border: 1px solid green;*/
+}
+
+.Log2{
+/*	border: 1px solid yellow;*/
+}
+
+.CrearCuenta{
+	width: 95%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+
+}
+
+.InputM{
+	color: black;
+	text-decoration-color: white;
+	background-color: white;
+	border-color: 1px solid red;
+}
+
+.white{
+	text-decoration-color: white;
+}
+
+.BtnAdmin{
+	width: 95%;
+	display: flex;
+	justify-content: flex-end;
+}
